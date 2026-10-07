@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS payments (
+id BIGINT PRIMARY KEY,
+customer_id VARCHAR(100) NOt NULL,
+amount DECIMAL(15,2) NOt NULL,
+currency VARCHAR(3) NOt NULL,
+status VARCHAR(20) NOt NULL,
+created_at TIMESTAMP NOT NULL );
